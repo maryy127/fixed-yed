@@ -30,6 +30,9 @@ main{
     position: relative;
     overflow: scroll;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 ul{
     list-style-type: none;
