@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Chewy&family=Comfortaa:wght@300..700&family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Jura:wght@300..700&family=Major+Mono+Display&family=Ranchers&display=swap');
+body{
+    background-color: #14c9bd;
+    color: #383f3f;
+    font-family: "Comfortaa", serif;
+}
+header{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+.headimg{
+    background-image: url("logo.png");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}
+main{
+    margin: 20px auto;
+    background-color: rgb(233, 245, 247);
+    border-radius: 13px;
+    width: 70%;
+    height: 700px;
+    position: relative;
+    overflow: scroll;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+}
+.letter{
+    background-color: #14c9bd;
+    margin: 10px auto;
+    font-size: 37px;
+    padding: 7px 90px 7px 20%;
+    border-radius: 12px;
+    position: sticky;
+    top: 0;
+}
+img{
+    width: 20%;
+    height: 20%;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin: 30px 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.strelka{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/44/44603.png");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+footer{
+    width: 70%;
+    margin: 30px auto;
+    font-size: 27px;
+    color: rgb(200, 202, 203);
+    text-align: center;
+}
