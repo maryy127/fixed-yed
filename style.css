@@ -36,7 +36,7 @@ main{
 }
 ul{
     list-style-type: none;
-    position: absolute;
+    position: relative;
 }
 .letter{
     background-color: #14c9bd;
